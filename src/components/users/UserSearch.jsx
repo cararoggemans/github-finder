@@ -32,7 +32,7 @@ function UserSearch() {
                     <button className='btn btn-lg absolute top-0 right-0 w-36 rounded-none' type='submit'>Go</button>
                 </div>
             </form>
-            {//only show clear if users found}
+            {/*only show clear if users found*/}
             {users.length > 0 && (
                 <div>
                 <button className='btn btn-ghost btn-lg'>
